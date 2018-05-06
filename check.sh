@@ -2,8 +2,8 @@
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 
-MAIL_TO="woods.dai.biz@gmail.com"
-MAIL_FROM="wood.dai.biz@gmail.com"
+MAIL_TO=$MAIL_BIZ
+MAIL_FROM=$MAIL_BIZ
 SUBJECT="【cron】グローバルIPアドレス変更通知"
 
 DATE=`date`
